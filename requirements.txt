@@ -1,0 +1,13 @@
+# Milestone 1: audio routing sanity checks.
+sounddevice
+numpy
+
+# Milestone 2: outgoing leg (mic -> ASR -> translate), VAD-gated STT cost control.
+python-dotenv
+google-cloud-speech
+anthropic
+webrtcvad
+setuptools<81  # webrtcvad imports pkg_resources, removed from setuptools>=81
+
+# Milestone 3: Mandarin TTS synth + mixer injection into the outgoing leg.
+google-cloud-texttospeech

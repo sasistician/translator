@@ -1,0 +1,10 @@
+venv/
+.env
+__pycache__/
+*.pyc
+*.wav
+.DS_Store
+
+# Personal live-test transcripts - not for the public repo.
+speech_test_transcript.txt
+*_transcript.txt
